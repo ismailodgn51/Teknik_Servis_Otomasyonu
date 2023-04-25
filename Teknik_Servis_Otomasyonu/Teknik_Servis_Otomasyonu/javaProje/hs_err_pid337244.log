@@ -1,0 +1,36 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffe92d764c6, pid=337244, tid=370040
+#
+# JRE version: OpenJDK Runtime Environment Temurin-17.0.2+8 (17.0.2+8) (build 17.0.2+8)
+# Java VM: OpenJDK 64-Bit Server VM Temurin-17.0.2+8 (17.0.2+8, mixed mode, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# Problematic frame:
+# V  [jvm.dll+0x3864c6]
+#
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   https://github.com/adoptium/adoptium-support/issues
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dfile.encoding=Cp1254 --module-path=C:\Users\halil\eclipse-workspace-javaFx\javaProje\bin;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.base.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.controls.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.fxml.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.graphics.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.media.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.swing.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx.web.jar;C:\Program Files\Java\javafx-sdk-17.0.2\lib\javafx-swt.jar;C:\Users\halil\.p2\pool\plugins\org.eclipse.fx.ide.css.jfx8_3.7.0.202010120832.jar -XX:+ShowCodeDetailsInExceptionMessages -Djdk.module.main=javaProje javaProje/application.Main
+
+Host: 11th Gen Intel(R) Core(TM) i7-11800H @ 2.30GHz, 16 cores, 15G,  Windows 10 , 64 bit Build 19041 (10.0.19041.1706)
+Time: Mon May 30 06:12:36 2022 Türkiye Standart Saati elapsed time: 65.180229 seconds (0d 0h 1m 5s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000263019aa640):  JavaThread "Timer-565" [_thread_in_vm, id=370040, stack(0x000000867d400000,0x000000867d500000)]
+
+Stack: [0x000000867d400000,0x000000867d500000],  sp=0x000000867d4ff480,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x3864c6]
+V  [jvm.dll+0x675572]
+V  [jvm.dll+0x38711b]
+V  [jvm.dll+0x3873a7]
+V  [jvm.dll+0x40d391]
+V  [jvm.dll+0x7e596b]
+V  [jvm.dll+0x7dff2a]
